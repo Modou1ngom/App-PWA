@@ -1,0 +1,32 @@
+/* src/app/components/photo-list/photo-list.component.css */
+
+.photo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  .photo-item {
+    width: calc(20% - 10px); /* 5 photos par ligne */
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .photo-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .photo-item h3 {
+    color: #333;
+    font-size: 0.9em;
+    margin-top: 8px;
+  }
+  
